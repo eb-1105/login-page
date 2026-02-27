@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="action_page.php" method="post">
+            <div>
+           <label for="fname">first name:</label> 
+            <input type="text" id="fname" name="fname" placeholder="Ebisa" required>
+            </div><br>
+
+            <div>
+            <label for="lname"> last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Smith" required>
+                </div> <br>
+
+                   <div>
+            <label for="email"> email:</label>
+            <input type="email" id="email" name="email" placeholder="brian@gmail.com" required>
+                </div> <br>
+
+
+                <div>
+                     <label for="pass"> password:</label>
+                        <input type="password" id="pass" name="pass" maxlength="8" placeholder="Enter password" required>
+                    </div><br>
+
+                  <div>
+            <label for="phone"> phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+        </div>  <br>
+        
+        <div>
+
+            <label for="bday">birthday</label>
+            <input type="date" id="bday" name="bday" required>
+        </div><br>
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" value="1" required>
+        </div><br>
+
+        <div>
+            <label for="title">title:</label>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr">
+            
+             <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs">
+
+             <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="PhD">
+        </div><br>
+
+        <div>
+        <label for="payment">Payment Method:</label>
+        <select id="payment" name="payment">
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+        </select></div><br>
+
+        <div>
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div><br>
+
+                <div>
+                     <input type="reset">
+                 </div><br>
+
+           <div>
+              <input type="submit">
+          </div>
+    </form>
+           
+    </body>
+    <footer style="text-align:center;">for more info_contact us on geletatekalign@gmail.com</footer>
+</html>
